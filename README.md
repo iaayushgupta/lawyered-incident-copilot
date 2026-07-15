@@ -1,7 +1,7 @@
 # Lawyered — AI Legal Incident Copilot
 
 **A build-first pitch for Lawyered — by [Aayush Gupta](https://iaayushgupta.github.io).**
-**Live demo:** _‹paste URL›_ · **[Portfolio ›](https://iaayushgupta.github.io)**
+**Live demo:** https://lawyered-incident-copilot.vercel.app/ · **[Portfolio ›](https://iaayushgupta.github.io)**
 
 > I didn't send a deck. I built the AI Legal Incident Copilot end-to-end — data model, deterministic workflow engine,
 > simulated AI, a self-grading evaluation harness, audit trails, and seven production-style screens — so you can click
