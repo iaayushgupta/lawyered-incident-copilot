@@ -15,7 +15,7 @@
     "seed:check": "tsx scripts/verify-dataset.ts"
   },
   "dependencies": {
-    "next": "15.1.6",
+    "next": "15.5.20",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "clsx": "2.1.1",
@@ -34,9 +34,9 @@
     "postcss": "8.5.1",
     "autoprefixer": "10.4.20",
     "eslint": "9.18.0",
-    "eslint-config-next": "15.1.6",
+    "eslint-config-next": "15.5.20",
     "vitest": "2.1.8",
     "tsx": "4.19.2",
-    "@playwright/test": "1.49.1"
+    "@playwright/test": "1.51.1"
   }
 }
