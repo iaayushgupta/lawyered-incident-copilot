@@ -1,13 +1,36 @@
-# Lawyered — AI Legal Incident Copilot (Prototype)
+# Lawyered — AI Legal Incident Copilot
 
-A production-style **prototype** of a human-supervised legal-operations copilot for **mobility & fleet roadside
-incidents** involving commercial vehicles. It turns unstructured incident reports (WhatsApp text, voice-note
-transcripts, call transcripts, uploads, fleet events) into **structured, reviewable, evidence-grounded cases** with
-simulated AI triage, document intelligence, grounded action plans, lawyer handoff, evaluation tooling, audit logs,
-and human-review controls.
+**A build-first pitch for Lawyered — by [Aayush Gupta](https://iaayushgupta.github.io).**
+‹your qualification — e.g. B.Tech CSE · N yrs full-stack / product engineering› · **Live demo:** _‹paste URL›_ · **[Portfolio ›](https://iaayushgupta.github.io)**
 
-> ⚠️ **This prototype uses synthetic data and synthetic legal sources. It does not provide legal advice and must not
-> be used for real legal decisions.**
+> I didn't send a deck. I built the AI Legal Incident Copilot end-to-end — data model, deterministic workflow engine,
+> simulated AI, a self-grading evaluation harness, audit trails, and seven production-style screens — so you can click
+> the product instead of imagining it. **Open Demo Mode, then the Failure Explorer.**
+
+### The thesis in 30 seconds
+Lawyered already has what most legaltech never gets: a **live intake channel** (LOTS247), **outcome data** (ChallanPay +
+resolved matters), and a **lawyer-network moat**. The missing layer is the **AI operating system between them** — and
+this prototype is that layer, built the way a *legal* company must: safety-first, auditable, abstains when unsure, and
+human-approved for anything risky. **That trust architecture — not the model — is the moat.**
+
+### How it elevates Lawyered's current product
+| Lawyered asset | Today | With the copilot |
+|---|---|---|
+| **LOTS247** (roadside intake) | human-coordinated calls | a structured pipeline → more incidents per lawyer, faster first response, lower cost/case |
+| **ChallanPay + resolved matters** | outcome data | a compounding flywheel — every resolution improves triage, routing & risk models |
+| **Lawyer network** | the moat *and* the bottleneck | AI removes logistics; lawyers keep judgment → each lawyer's leverage ↑ |
+| **Trust & liability** | the thing that stalls legal AI | abstention · human approval · source-grounding · audit · tenant isolation |
+| **Fleet-CFO framing** | a support ticket | downtime priced in **₹/day** → enterprise SaaS + SLA wedge |
+
+**What makes it more than a UI demo — it grades itself.** 109 synthetic cases (62% deliberately adversarial) carry
+ground truth; the evaluation dashboard flags **dangerous failures** — a missed safety escalation, a fabricated
+citation, a missed fraud — *separately* from headline accuracy, and the Failure Explorer diagnoses each miss with a
+recommended fix. That is exactly the judgment a legal company needs before it ships AI.
+
+> ⚠️ Prototype: **synthetic data and synthetic legal sources — not legal advice, not for real legal decisions.** An
+> independent build on Lawyered's public product thesis; not sanctioned Lawyered work.
+
+---
 
 It is **not an autonomous lawyer** — it is a legal-operations copilot. AI can draft, classify, retrieve and recommend;
 **high-risk legal actions cross a confidence gate and require lawyer approval.**
